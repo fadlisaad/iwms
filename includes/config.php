@@ -3,10 +3,10 @@
 	//Error state
 	error_reporting(E_ALL);
 	
-	define('DB_HOST', 'localhost');
-    define('DB_USER', 'root');
-    define('DB_PASSWORD', '');
-    define('DB_DATABASE', 'entpostme');
+	define('DB_HOST', 'tunnel.pagodabox.com:3306');
+    define('DB_USER', 'charla');
+    define('DB_PASSWORD', 'uCwe5I97');
+    define('DB_DATABASE', 'iwms');
 
 	//Connect to mysql server
 	$link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
